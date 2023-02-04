@@ -1,4 +1,5 @@
-import { TextField, Box } from "@mui/material";
+import { TextField, Box, FormHelperText } from "@mui/material";
+import { blueGrey } from "@mui/material/colors";
 import React from "react";
 
 const FurnitureSwitch = ({ onChange }) => {
@@ -27,6 +28,7 @@ const FurnitureSwitch = ({ onChange }) => {
           onChange={onChange}
         />
       </Box>
+      <FormHelperText children={"Please provide details in  centimeter(CM)"} />
     </>
   );
 };
