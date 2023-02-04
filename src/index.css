@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background-color: #0187ff;
+}
+
+.header-wrapper {
+  padding:3% 7%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px;
+  
+}
+
+.l-head {
+  display: flex;
+}
+.r-head {
+
+}
+.Logo-des {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.cancel-btn {
+  font-size: 1rem;
+  padding:10px 20px;
+  background-color: #dc3545;
+  color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-container {
+  height: 86vh;
+}
+
+.main-wrapper {
+  padding: 3% 7%;
+  margin: 0 50px;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+form {
+  /* display: flex;
+  flex-direction: column;
+  max-width: 100%; */
+}
